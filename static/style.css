@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#dbefff,#f5f9ff);
+}
+
+/* Home Page */
+
+.container{
+    width: 60%;
+    margin: 100px auto;
+    text-align:center;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.container h1{
+    color:#003366;
+    margin-bottom:20px;
+}
+
+.container p{
+    font-size:18px;
+    color:#444;
+}
+
+/* Form Page */
+
+.form-container{
+    width:450px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.form-container h2{
+    text-align:center;
+    color:#00509e;
+}
+
+label{
+    font-weight:bold;
+    color:#333;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+/* Buttons */
+
+button{
+    width:100%;
+    padding:12px;
+    background:#0056d2;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#003d99;
+}
+
+/* Result Page */
+
+.result-container{
+    width:400px;
+    margin:120px auto;
+    text-align:center;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.result-container h1{
+    color:#003366;
+}
+
+.result-container h2{
+    color:green;
+}
